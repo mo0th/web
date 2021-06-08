@@ -23,6 +23,7 @@ const config = {
     ]
   },
   reactStrictMode: true,
+  target: 'serverless',
 }
 
 module.exports = withBundleAnalyzer(config)
